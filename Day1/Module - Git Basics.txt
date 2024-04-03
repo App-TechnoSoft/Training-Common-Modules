@@ -1,0 +1,28 @@
+Version (Source) Control Systems
+
+-- Track changes (Add, Update, Delete) - Who, What, When
+
+-- Legacy tools: tfs, svn
+
+-- Modern: Git
+
+---- Basics
+---- Repository (Root directory): Local (D:\AppSoft\Common Modules\My Files), Remote
+---- Branches, Commits, Stage(add), Pull, Push
+---->  git init, git add --all, git commit -m "Add new college info file" 
+
+----> To commit we need WHO
+-------> git config user.email rawal.bishnu@gmail.com, git config user.name "Bishnu Rawal"
+
+
+-- Github, Gitlab, Bitbucket etc.
+
+
+-- Add remote and push
+
+git remote add origin https://github.com/binbsr/MyFIles.git
+git push --set-upstream origin master
+
+
+Push - local lai remote ma pathaune
+Pull - remote ko changes local repo ma lyaune kaam
