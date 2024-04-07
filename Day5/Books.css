@@ -1,0 +1,19 @@
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.font {
+    color:blueviolet ;
+    font-size: 20px; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#book {
+    height: 50px;
+}
