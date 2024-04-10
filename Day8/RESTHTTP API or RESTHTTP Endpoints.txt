@@ -1,0 +1,63 @@
+REST/HTTP API or REST/HTTP Endpoints
+
+- Web Application without UI
+- Set URLs/Endpoints
+- Other client application (Web, Desktop, Console, Mobile etc.) consumes those URls
+- Deals with data Only
+- JSON (JavaScript Object Notation) data format
+
+
+XML and JSON
+=======================
+
+Example: Two books
+
+Raw (CSV):
+"Machine Learning, NLP", III, 1000.00, 1990/12/12
+Data Structures, IV, 2000.00, 2000/1/12 
+
+
+XML:
+<book>
+	<title>Machine Learning, NLP</title>
+	<edition>III</edition>
+	<price>1000.00</price>
+	<published>1990/12/12</published>
+	<publisher>
+		<name>Nima</name>
+	</publisher>
+</book>
+<book>
+	<title>Data Structures</title>
+	<edition>IV</edition>
+	<price>20000.00</price>
+	<published>2000/1/12</published>
+</book>
+
+JSON:
+[
+	{
+		"title": "Machine Learning, NLP",
+		"edition": "III",
+		"price": 1000.00,
+		"published": 1990/12/12,
+		"publihser": {
+			"name": "Nima"
+		}
+	},
+	{
+		"title": "Data Structures",
+		"edition": "IV",
+		"price": 20000.00,
+		"published": 2000/1/12
+	}
+]
+
+
+Example API: https://dogapi.dog/api/v2/breeds
+
+
+
+
+
+
