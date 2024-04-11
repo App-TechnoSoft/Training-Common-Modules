@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day8", "Day8", "{37D1AC9F-E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETStarter", "NETStarter", "{4FA3B9BC-72B0-4721-9BAA-7A23EA394506}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Day8\NETStarter\Basics\Basics.csproj", "{5450D465-D2E2-439A-A556-49AA3E8DBA7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Day8-9\NETStarter\Basics\Basics.csproj", "{5450D465-D2E2-439A-A556-49AA3E8DBA7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
