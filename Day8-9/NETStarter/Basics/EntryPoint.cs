@@ -27,6 +27,8 @@ var p = rec1.GetPerimeter();
 var rec2 = new Rectangle(123.23, 34.3);
 var a = rec2.GetArea();
 
+var square1 = new Square(34.5);
+var sa = square1.GetArea();
 
 
 
